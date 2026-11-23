@@ -1,0 +1,9 @@
+{
+  "_nota": "Menù speciali (feste, eventi). Per aggiungerne uno: copiare il JPG in assets/img/menu/ e aggiungere una voce. 'fino_al' (AAAA-MM-GG) nasconde il menù dopo quella data. Le immagini en sono facoltative.",
+  "menu": [
+    { "id": "natale", "titolo": {"it": "Natale", "en": "Christmas"}, "data": {"it": "25 dicembre", "en": "25 December"},
+      "img": {"it": "/hokutazzo-ciliegio-bw06uth6/assets/img/menu/menu-natale.jpg", "en": "/hokutazzo-ciliegio-bw06uth6/assets/img/menu/menu-natale.jpg"}, "fino_al": "2026-12-25" },
+    { "id": "silvestro", "titolo": {"it": "Capodanno", "en": "New Year's Eve"}, "data": {"it": "31 dicembre", "en": "31 December"},
+      "img": {"it": "/hokutazzo-ciliegio-bw06uth6/assets/img/menu/menu-silvestro.jpg", "en": "/hokutazzo-ciliegio-bw06uth6/assets/img/menu/menu-silvestro.jpg"}, "fino_al": "2026-12-31" }
+  ]
+}
