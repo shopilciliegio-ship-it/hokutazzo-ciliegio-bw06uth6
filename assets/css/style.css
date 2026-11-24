@@ -550,3 +550,11 @@ p{margin:0 0 1em}
 .trio--4{grid-template-columns:repeat(4,1fr)}
 @media (max-width:1000px){.trio--4{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.trio--4{grid-template-columns:1fr}}
+
+/* v0.7 (24/11/26 sera) – desktop: niente "scacchiera" a tutta larghezza. Foto e testo dentro una colonna centrata,
+   con spazio sopra/sotto; le fasce bianco/crema alternate dividono i blocchi (come su telefono). */
+@media (min-width:821px){
+  .hb-grid,.lp-grid{max-width:1180px;margin:0 auto;padding:72px 32px;column-gap:72px;min-height:0;align-items:center}
+  .hb-img,.lp-img{min-height:0;aspect-ratio:4/3;align-self:center;width:100%}
+  .hb-txt,.lp-txt{padding:0}
+}
