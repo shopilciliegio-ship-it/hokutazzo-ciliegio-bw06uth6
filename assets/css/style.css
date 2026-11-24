@@ -521,3 +521,32 @@ p{margin:0 0 1em}
 .rv-btn{width:46px;height:46px;border-radius:50%;border:1px solid var(--gold);background:#fff;color:var(--gold-btn);font-size:1.6rem;line-height:1;cursor:pointer;padding:0 0 4px}
 .rv-btn:hover{background:var(--gold-btn);color:#fff}
 @media (max-width:820px){.rv-nav{display:none}}
+
+/* v0.6 (24/11/26) – hero della home: foto più bassa, testo sotto su fondo chiaro; blocco "ultimo post"; Storia a 4 colonne */
+.homehero{background:var(--white)}
+.homehero-img{position:relative;height:54vh;min-height:340px;max-height:620px;background:#3a3329 var(--hero-img) center/cover no-repeat}
+.homehero-img::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,15,10,.5) 0,rgba(20,15,10,0) 38%)}
+.homehero-copy{max-width:860px;text-align:center;padding-top:46px;padding-bottom:56px}
+.homehero h1{font-size:clamp(2rem,4.4vw,3.1rem);margin-bottom:.5em}
+.homehero .lead{font-family:var(--font-head);font-style:italic;font-size:1.4rem;line-height:1.45;color:var(--muted);max-width:680px;margin:0 auto}
+@media (max-width:820px){
+  .homehero-img{height:38svh;min-height:260px;background-image:var(--hero-img-m)}
+  .homehero-copy{text-align:left;padding-top:30px;padding-bottom:40px}
+  .homehero .lead{font-size:1.2rem}
+}
+.lp{background:var(--cream)}
+.lp[hidden]{display:none}
+.lp-grid{display:grid;grid-template-columns:1fr 1fr;align-items:stretch}
+.lp-img{display:block;background:var(--cream-2) center/cover no-repeat;min-height:340px}
+.lp-txt{display:flex;flex-direction:column;justify-content:center;padding:52px clamp(24px,5vw,64px)}
+.lp-txt h2{margin-bottom:.3em}
+.lp-date{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:1em}
+.lp-body{white-space:pre-line;margin-bottom:1.2em}
+@media (max-width:820px){
+  .lp-grid{grid-template-columns:1fr}
+  .lp-img{min-height:0;aspect-ratio:4/3}
+  .lp-txt{padding:30px 22px 40px}
+}
+.trio--4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:1000px){.trio--4{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.trio--4{grid-template-columns:1fr}}

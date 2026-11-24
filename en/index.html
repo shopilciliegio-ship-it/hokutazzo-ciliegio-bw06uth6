@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/hokutazzo-ciliegio-bw06uth6/assets/css/style.css?v=13ff6572">
+<link rel="stylesheet" href="/hokutazzo-ciliegio-bw06uth6/assets/css/style.css?v=d444f3a2">
 
 </head>
 <body>
@@ -52,11 +52,24 @@
 <!-- HOME v0.5 (24/11/26): clean hero (slogan + description only) + 5 blocks = the 5 menu items + scrolling reviews. -->
 
 <!-- ============ HERO ============ -->
-<section class="hero hero--home" style="--hero-img:url('/hokutazzo-ciliegio-bw06uth6/assets/img/hero-2400.jpg');--hero-img-m:url('/hokutazzo-ciliegio-bw06uth6/assets/img/hero-1200.jpg')" aria-labelledby="h1">
-  <div class="wrap">
-    <div class="hero-copy">
-      <h1 id="h1">Il Ciliegio: vineyards, olive oil and a family table, ten minutes from Siena</h1>
-      <p class="lead">Since 1952 we have grown vines and olive trees in the Chianti Colli Senesi. Come and see the winery, sit at our table, or have our wine delivered to your home.</p>
+<section class="homehero" aria-labelledby="h1">
+  <div class="homehero-img" role="img" aria-label="Aerial view of the Il Ciliegio farm among the vines" style="--hero-img:url('/hokutazzo-ciliegio-bw06uth6/assets/img/hero-2400.jpg');--hero-img-m:url('/hokutazzo-ciliegio-bw06uth6/assets/img/hero-1200.jpg')"></div>
+  <div class="wrap homehero-copy">
+    <h1 id="h1">Il Ciliegio: a family, its land and its wine, since 1952</h1>
+    <p class="lead">We farm almost 100 hectares in the Chianti Colli Senesi, with vines, olive trees and arable land. Come and see the winery, sit at our table, or have our products shipped to your home.</p>
+  </div>
+</section>
+
+<!-- ============ LATEST FACEBOOK POST (read from ultimo-post.json written by the CSM; stays hidden if missing) ============ -->
+<section class="lp section--cream" data-lastpost hidden aria-labelledby="h-lp">
+  <div class="lp-grid">
+    <a class="lp-img" href="https://www.facebook.com/ilciliegiodimonteriggioni" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"></a>
+    <div class="lp-txt">
+      <p class="eyebrow">From our Facebook page</p>
+      <h2 id="h-lp">The latest from Il Ciliegio</h2>
+      <p class="lp-date"></p>
+      <p class="lp-body"></p>
+      <p><a class="btn btn-ghost lp-link" href="https://www.facebook.com/ilciliegiodimonteriggioni" target="_blank" rel="noopener">Read on Facebook</a></p>
     </div>
   </div>
 </section>
@@ -227,5 +240,6 @@
 
 <script src="/hokutazzo-ciliegio-bw06uth6/assets/js/main.js?v=8ef9ff71"></script>
 <script src="/hokutazzo-ciliegio-bw06uth6/assets/js/reviews.js?v=e0c35788" defer></script>
+<script src="/hokutazzo-ciliegio-bw06uth6/assets/js/lastpost.js?v=272de49d" defer></script>
 </body>
 </html>
