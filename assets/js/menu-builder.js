@@ -1,6 +1,6 @@
 /* Componi il tuo menù — Il Ciliegio (a passi)
    1) scegli il menù di partenza (menu a tendina)  2) cambia i piatti  3) quando e in quanti -> invia.
-   Legge /assets/data/menu-builder.json (estratto da Ciliegio Menu: solo piatti e proposte).
+   Legge /hokutazzo-ciliegio-bw06uth6/assets/data/menu-builder.json (estratto da Ciliegio Menu: solo piatti e proposte).
    Il supplemento dei piatti entra nel prezzo ma non viene mai mostrato.
    La richiesta parte da WhatsApp o email (la casella richieste arriva in fase 2). */
 (function () {
