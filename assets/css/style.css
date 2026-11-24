@@ -558,3 +558,7 @@ p{margin:0 0 1em}
   .hb-img,.lp-img{min-height:0;aspect-ratio:4/3;align-self:center;width:100%}
   .hb-txt,.lp-txt{padding:0}
 }
+
+/* v0.10 (24/11/26) – hero: testo su fondo crema, con una banda bianca sopra e sotto che lo stacca dai blocchi */
+.homehero{background:var(--white);padding-bottom:22px}
+.homehero-band{background:var(--cream);margin-top:22px}
