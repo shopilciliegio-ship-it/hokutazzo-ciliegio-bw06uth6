@@ -484,7 +484,7 @@ p{margin:0 0 1em}
 .hero--home .lead{margin-bottom:0}
 
 /* blocco home: foto a metà pagina + testo, si alterna a destra/sinistra */
-.hb{background:var(--white)}
+.hb{background:var(--cream)}
 .hb--cream{background:var(--cream)}
 .hb-grid{display:grid;grid-template-columns:1fr 1fr;min-height:540px}
 .hb-img{background:var(--cream-2) center/cover no-repeat;min-height:380px}
@@ -554,7 +554,7 @@ p{margin:0 0 1em}
 /* v0.7 (24/11/26 sera) – desktop: niente "scacchiera" a tutta larghezza. Foto e testo dentro una colonna centrata,
    con spazio sopra/sotto; le fasce bianco/crema alternate dividono i blocchi (come su telefono). */
 @media (min-width:821px){
-  .hb-grid,.lp-grid{max-width:1180px;margin:0 auto;padding:36px 32px;column-gap:72px;min-height:0;align-items:center}
+  .hb-grid,.lp-grid{max-width:1180px;margin:0 auto;padding:18px 32px;column-gap:72px;min-height:0;align-items:center}
   .hb-img,.lp-img{min-height:0;aspect-ratio:4/3;align-self:center;width:100%}
   .hb-txt,.lp-txt{padding:0}
 }
