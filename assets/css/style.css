@@ -562,3 +562,8 @@ p{margin:0 0 1em}
 /* v0.10 (24/11/26) – hero: testo su fondo crema, con una banda bianca sopra e sotto che lo stacca dai blocchi */
 .homehero{background:var(--white);padding-bottom:22px}
 .homehero-band{background:var(--cream);margin-top:22px}
+
+/* v0.11 – punteggio e stelle delle recensioni vere (Google/TripAdvisor) */
+.rv-score{font-family:var(--font-head);font-size:1.4rem;color:var(--gold-btn);margin:.4em 0 0}
+.rv-score[hidden]{display:none}
+.rv-stars{color:var(--gold);letter-spacing:.12em;margin:0 0 .4em!important;font-size:1rem}
