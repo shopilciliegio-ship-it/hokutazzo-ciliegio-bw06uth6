@@ -155,14 +155,21 @@
       <p class="eyebrow">What people say</p>
       <h2 id="h-rev-r">From our table</h2>
       <hr class="rule">
+      <p class="rv-score" data-rv-score hidden></p>
     </div>
-    <div class="quotes">
+  </div>
+  <div class="rv" data-rv>
+    <div class="rv-track" tabindex="0" aria-label="Guest reviews">
       <blockquote class="quote"><p>The place is in the middle of the countryside near Siena, a few minutes from the city. They welcomed us with an aperitif in the cellar: white wine and bruschetta. Excellent.</p><footer>Claudio M. · Siena</footer></blockquote>
       <blockquote class="quote"><p>The food is excellent, the portions right and the wine good. I highly recommend it to anyone who wants to taste Sienese cooking in an informal setting.</p><footer>FabioD137 · Asti</footer></blockquote>
       <blockquote class="quote"><p>A family-run farm where you breathe the typical Tuscan energy and verve, starting with the owners. Be sure to visit the cellar before lunch.</p><footer>Cinzia Faganello · Local Guide</footer></blockquote>
     </div>
-    <!-- TODO: translated from Italian reviews on the current site; check source and permission. -->
+    <div class="rv-nav">
+      <button type="button" class="rv-btn" data-dir="-1" aria-label="Previous review">‹</button>
+      <button type="button" class="rv-btn" data-dir="1" aria-label="Next review">›</button>
+    </div>
   </div>
+  <!-- TODO: translated from Italian reviews on the current site; check source and permission. -->
 </section>
 
 <section class="cta-band" id="prenota" aria-labelledby="h-book-r">
@@ -231,5 +238,6 @@
 </nav>
 
 <script src="/hokutazzo-ciliegio-bw06uth6/assets/js/main.js?v=8ef9ff71"></script>
+<script src="/hokutazzo-ciliegio-bw06uth6/assets/js/reviews.js?v=4dd33177" defer></script>
 </body>
 </html>
